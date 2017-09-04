@@ -14,7 +14,6 @@
 #'              Fifth element contains subset of all character variables of the input data frame.
 #'              Sixth element contains subset of all raw variables of the input data frame. 
 #' @author "Sandip Kumar Gupta", "sandip_nitj@yahoo.co.in"
-#' @Maintainer: "Sandip Kumar Gupta", "<sandip_nitj@yahoo.co.in>"
 #' @export
 subbytype = function(df) {
   if(length(df) > 0) {
@@ -49,7 +48,6 @@ subbytype = function(df) {
         "Complex",
         "Charecter",
         "Raw")
-    length(dflist)
   } else {
     dflist<-list()
   }
